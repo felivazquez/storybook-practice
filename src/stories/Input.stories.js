@@ -5,4 +5,11 @@ export default {
   component: Input,
 };
 
-export const Email = () => <Input label="Email" type="text" name="email" />;
+export const Email = () => (
+  <Input
+    label="Email"
+    type="text"
+    name="email"
+    placeholder="Ingresá tu email"
+  />
+);
